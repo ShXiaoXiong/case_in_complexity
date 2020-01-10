@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1f7e8dae-fe86-49fc-a07c-b49d7fbaf983</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>case_in_complexity.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +23,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="case_in_complexity.py" />
+    <Compile Include="test.py" />
+    <Compile Include="test2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
